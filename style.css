@@ -75,13 +75,26 @@ button {
 
 nav{
     display: flex;
-    justify-content: end;
+    justify-content: start;
     padding: 2rem 2rem 1rem 1rem;
+    font-family: "Quicksand", serif;
 }
 
 
 nav ul{
     display: none;
+    gap: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--green);
+}
+
+nav li{
+    list-style: none;
 }
 
 
@@ -109,9 +122,9 @@ nav ul{
 
 .naam{
 
-    padding-bottom: 125px;
+    padding-bottom: 100px;
     position: absolute;
-    left: 10px;
+    left: 12px;
 }
 
 
@@ -151,12 +164,12 @@ nav ul{
 
 
 .snell h2{
-    font-size: 14px;
+    font-size: 17px;
     padding-bottom: 10px;
 }
 
 .snell p{
-    font-size: 10px;
+    font-size: 12px;
 }
 
 
@@ -172,13 +185,13 @@ nav ul{
 
 
 .karting h2{
-    font-size: 14px;
+    font-size: 17px;
     padding-bottom: 10px;
 }
 
 
 .karting p{
-    font-size: 10px;
+    font-size: 12px;
 }
 
 
@@ -195,13 +208,13 @@ nav ul{
 
 
 .DFK h2{
-    font-size: 14px;
+    font-size: 17px;
     padding-bottom: 10px;
 }
 
 
 .DFK p{
-    font-size: 10px;
+    font-size: 12px;
 }
 
 
@@ -224,7 +237,7 @@ nav ul{
 .school h2{
     text-align: left;
     padding: 20px 0px 20px 20px;
-    font-size: 14px;
+    font-size: 17px;
     padding-bottom: 10px;
 }
 
@@ -233,7 +246,7 @@ nav ul{
 .school p{
     text-align: left;
     padding: 10px 30px 30px 20px;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 
@@ -247,7 +260,7 @@ nav ul{
 .werk h2{
     text-align: right;
     padding: 20px 20px 0px 0px;
-    font-size: 14px;
+    font-size: 17px;
     padding-bottom: 10px;
 }
 
@@ -255,7 +268,7 @@ nav ul{
 .werk p{
     text-align: right;
     padding: 10px 20px 30px 30px;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 
@@ -285,7 +298,7 @@ footer{
 
 
 #contact h2{
-    font-size: 20px;
+    font-size: 23px;
 }
 
 
@@ -294,12 +307,12 @@ footer{
 }
 
 .mail h2, .tele h2, .adres h2, .geboorte h2{
-    font-size: 8px;
+    font-size: 11px;
 }
 
 
 .mail p, .tele p, .adres p, .geboorte p{
-    font-size: 8px;
+    font-size: 11px;
 }
 
 .mail, .tele, .adres, .geboorte{
@@ -307,4 +320,430 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+
+
+@media (min-width: 320px){
+
+    .DFK img{
+        display: none;
+    }
+}
+
+
+@media (min-width: 400px){
+    
+    .naam h2{
+        font-size: 23px;
+    }
+    
+    
+    .naam-2 h2{
+        font-size: 18px;
+    }
+    
+    
+    .naam{
+
+        padding-bottom: 105px;
+        left: 30px;
+    }
+    
+    
+    
+    .naam-2{
+        padding-top: 140px;
+        position: absolute;
+        right: 45px;
+    }
+}
+
+
+
+@media (min-width: 667px){
+    .naam h2{
+        font-size: 30px;
+    }
+    
+    
+    .naam-2 h2{
+        font-size: 25px;
+    }
+    
+
+    .naam{
+
+        padding-bottom: 140px;
+        left: 100px;
+    }
+    
+    
+    
+    .naam-2{
+        padding-top: 215px;
+        position: absolute;
+        right: 85px;
+    }
+
+    .snell h2{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .snell p{
+        font-size: 13px;
+    }
+    
+    
+    
+    .karting h2{
+        font-size: 20px;
+
+    }
+    
+    
+    .karting p{
+        font-size: 13px;
+    }
+    
+    
+    
+    
+    .DFK h2{
+        font-size: 20px;
+
+    }
+    
+    
+    .DFK p{
+        font-size: 13px;
+    }
+ 
+
+    
+    .school h2{
+
+        font-size: 20px;
+    }
+    
+    
+    
+    .school p{
+
+
+        font-size: 13px;
+    }
+    
+    
+    
+    .werk h2{
+
+        font-size: 20px;
+
+    }
+    
+    
+    .werk p{
+
+        font-size: 13px;
+    }
+    
+    #contact h2{
+        font-size: 23px;
+    }
+    
+    
+    .mail, .tele, .adres{
+        padding-bottom: 13px;
+    }
+    
+    .mail h2, .tele h2, .adres h2, .geboorte h2{
+        font-size: 13px;
+    }
+    
+    
+    .mail p, .tele p, .adres p, .geboorte p{
+        font-size: 13px;
+    }
+
+}
+
+
+
+@media (min-width: 734px){
+    .naam h2{
+        font-size: 32px;
+    }
+    
+    
+    .naam-2 h2{
+        font-size: 25px;
+    }
+    
+
+    .naam{
+
+        padding-bottom: 155px;
+        left: 125px;
+    }
+    
+    
+    
+    .naam-2{
+        padding-top: 230px;
+        right: 100px;
+    }
+
+
+    .snell h2{
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+    
+    .snell p{
+        font-size: 15px;
+    }
+    
+    
+    
+    .karting h2{
+        font-size: 22px;
+
+    }
+    
+    
+    .karting p{
+        font-size: 15px;
+    }
+    
+    
+    
+    
+    .DFK h2{
+        font-size: 22px;
+
+    }
+    
+    
+    .DFK p{
+        font-size: 15px;
+    }
+ 
+
+    
+    .school h2{
+
+        font-size: 22px;
+    }
+    
+    
+    
+    .school p{
+
+
+        font-size: 15px;
+    }
+    
+    
+    
+    
+    
+    .werk h2{
+
+        font-size: 22px;
+
+    }
+    
+    
+    .werk p{
+
+        font-size: 15px;
+    }
+    
+    #contact h2{
+        font-size: 27px;
+    }
+    
+    
+    .mail, .tele, .adres{
+        padding-bottom: 15px;
+    }
+    
+    .mail h2, .tele h2, .adres h2, .geboorte h2{
+        font-size: 15px;
+    }
+    
+    
+    .mail p, .tele p, .adres p, .geboorte p{
+        font-size: 15px;
+    }
+
+
+}
+
+
+@media (min-width: 768px){
+    .naam h2{
+        font-size: 35px;
+    }
+    
+    
+    .naam-2 h2{
+        font-size: 25px;
+    }
+    
+
+    .naam{
+
+        padding-bottom: 155px;
+        left: 100px;
+    }
+    
+     .DFK img{
+        display: inline-block;
+        width: 80%;
+        padding-top: 20px;
+    }
+    
+    .naam-2{
+        padding-top: 245px;
+        right: 100px;
+    }
+    
+
+}
+
+
+
+@media (min-width: 1024px){
+    .naam h2{
+        font-size: 45px;
+    }
+    
+    
+    .naam-2 h2{
+        font-size: 35px;
+    }
+    
+
+    .naam{
+
+        padding-bottom: 190px;
+        left: 150px;
+    }
+
+    
+    .naam-2{
+        padding-top: 325px;
+        right: 150px;
+    }
+    .snell h2{
+        font-size: 27px;
+        padding-bottom: 10px;
+    }
+    
+    .snell p{
+        font-size: 20px;
+    }
+    
+    
+    
+    .karting h2{
+        font-size: 27px;
+
+    }
+    
+    
+    .karting p{
+        font-size: 20px;
+    }
+    
+    
+    
+    
+    .DFK h2{
+        font-size: 27px;
+
+    }
+    
+    
+    .DFK p{
+        font-size: 20px;
+    }
+ 
+
+    
+    .school h2{
+
+        font-size: 27px;
+    }
+    
+    
+    
+    .school p{
+
+
+        font-size: 20px;
+    }
+    
+    
+    
+    
+    
+    .werk h2{
+
+        font-size: 27px;
+
+    }
+    
+    
+    .werk p{
+
+        font-size: 20px;
+    }
+    
+    #contact h2{
+        font-size: 33px;
+    }
+    
+    
+    .mail, .tele, .adres{
+        padding-bottom: 20px;
+    }
+    
+    .mail h2, .tele h2, .adres h2, .geboorte h2{
+        font-size: 20px;
+    }
+    
+    
+    .mail p, .tele p, .adres p, .geboorte p{
+        font-size: 20px;
+    }
+
+
+}
+
+@media (min-width: 1080px){
+    .naam h2{
+        font-size: 55px;
+    }
+    
+    
+    .naam-2 h2{
+        font-size: 45px;
+    }
+    
+
+    .naam{
+
+        padding-bottom: 230px;
+        left: 170px;
+    }
+
+    
+    .naam-2{
+        padding-top: 405px;
+        right: 200px;
+    }
 }
